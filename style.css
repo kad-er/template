@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "futura";
+    src: url("Futura\ Bold/Futura\ Bold.otf")
+         
+  }
+  body{
+    font-family:'futura';
+    letter-spacing: 2px;
+  }
+.container{
+    background-image: url("BACKGROUND (5).png");
+    height: 765px;
+    width: 595px;
+}
+#top-event{
+    max-height: 285px;
+}
+#event-date{
+    
+    height: 108x;
+    width: 112px;
+}
+
+#nom,#prenom,#role{
+    text-transform:uppercase;
+}
+
+#role{
+    border: black solid 2px
+}
+ul{
+    list-style-type :none;
+    padding-inline-start: 0px;
+}
+ul>li {
+    font-size: 10pt;
+    letter-spacing: normal;
+}
+.qrcode{
+
+}
+.logo{
+    max-height: 60px;
+    width: auto;
+    margin: 2px;
+}
